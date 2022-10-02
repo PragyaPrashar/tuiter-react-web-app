@@ -1,120 +1,124 @@
-body{
+body {
     font-family: Arial;
     background-color: black;
     color: white;
 }
 
-.wd-container{
+.wd-container {
     border: solid 1px rgb(47, 51, 54);
 }
-.wd-bookmarks-header{
+
+.wd-bookmarks-header {
     border-bottom: solid 1px rgb(47, 51, 54);
 }
 
-.wd-bookmarks-header h3{
+.wd-bookmarks-header h3 {
     margin-left: 16px;
-    margin-top:12px;
-    margin-bottom:5px;
+    margin-top: 12px;
+    margin-bottom: 5px;
     font-size: 20px;
     color: white;
 }
 
-.wd-bookmarks-header h4{
-margin-bottom:12px;
+.wd-bookmarks-header h4 {
+    margin-bottom: 12px;
     margin-top: 5px;
     margin-left: 16px;
     color: lightgray;
     font-size: 13px;
 }
 
-.wd-avatar-image{
-    position:relative;
+.wd-avatar-image {
+    position: relative;
     top: -616px;
     border-radius: 180px;
     height: 48px;
-    width:48px;
+    width: 48px;
     margin-top: 12px;
     margin-left: 16px;
 }
 
-.wd-bookmarks-main-body{
+.wd-bookmarks-main-body {
     margin-top: 12px;
     margin-left: 12px;
-    display:inline-block;
+    display: inline-block;
 }
 
 
-.wd-avatar-name{
-    color:white;
+.wd-avatar-name {
+    color: white;
     font-size: 15px;
 }
 
-.wd-avatar-handle-date{
-    color:lightgray;
+.wd-avatar-handle-date {
+    color: lightgray;
     font-size: 15px;
 }
 
-.wd-bookmarks-content{
+.wd-bookmarks-content {
     font-size: 15px;
-    width:506px;
+    width: 506px;
     color: white;
     margin-right: 16px;
-   margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 
-.wd-bookmark-card{
+.wd-bookmark-card {
     border: solid 1px rgb(47, 51, 54);
-    border-radius:20px;
-    width:504px;
+    border-radius: 20px;
+    width: 504px;
 }
-.wd-bookmark-body-image{
-    width:504px;
-    height:264px;
+
+.wd-bookmark-body-image {
+    width: 504px;
+    height: 264px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-right: 12px;
 }
 
-.wd-bookmark-title{
+.wd-bookmark-title {
     font-weight: bold;
     font-size: 15px;
-    color:white;
+    color: white;
     margin-top: 12px;
 }
 
-.wd-bookmarks-text{
+.wd-bookmarks-text {
     color: lightgray;
-    size:15px;
+    font-size: 15px;
 
 }
-.wd-bookmarks-title-text{
+
+.wd-bookmarks-title-text {
     padding: 12px;
 }
 
-.wd-bookmarks-icons{
-display: flex;
+.wd-bookmarks-icons {
+    display: flex;
     justify-content: space-between;
     margin-top: 12px;
     margin-bottom: 12px;
 }
-.wd-icon{
-    width:15px;
-    height:15px;
+
+.wd-icon {
+    width: 15px;
+    height: 15px;
     margin-right: 12px;
 }
 
-.wd-number{
-font-size: 15px;
-    color:lightgray;
+.wd-number {
+    font-size: 15px;
+    color: lightgray;
 }
 
-.wd-block{
+.wd-block {
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     text-align: center;
 }
 
-#wd-red, #wd-red2{
+#wd-red, #wd-red2 {
     color: red;
 }

@@ -1,61 +1,63 @@
-body{
+body {
     font-family: Arial;
     background-color: black;
     color: white;
 }
 
-.wd-container{
+.wd-container {
     border: solid 1px rgb(47, 51, 54);
     margin-left: 16px;
 }
-.wd-nav-search{
+
+.wd-nav-search {
     border-bottom: solid 1px rgb(47, 51, 54);
-    height:114px;
+    height: 114px;
 
 }
 
-.wd-search-lens{
-    position:relative;
+.wd-search-lens {
+    position: relative;
     width: 15px;
-    height:15px;
-    left:30px;
-    top:2px;
+    height: 15px;
+    left: 30px;
+    top: 2px;
 }
-.wd-search-input{
-    width:500px;
-    height:30px;
+
+.wd-search-input {
+    width: 500px;
+    height: 30px;
     border-radius: 20px;
     background-color: darkgray;
     padding-left: 35px;
 
 }
 
-.wd-search-icon{
-position:relative;
-    top:7px;
-    left:12px;
-   margin-left:12px;
+.wd-search-icon {
+    position: relative;
+    top: 7px;
+    left: 12px;
+    margin-left: 12px;
     font-size: 30px;
     text-decoration: none;
-    color: rgb(29,161,242);
+    color: rgb(29, 161, 242);
 }
 
-.wd-nav-tabs{
+.wd-nav-tabs {
     color: rgb(110, 118, 125);
     font-size: 15px;
-    padding-left:15px;
+    padding-left: 15px;
 }
 
-.wd-nav-tabs li{
+.wd-nav-tabs li {
     list-style-type: none;
     display: inline-block;
     padding: 16px;
 }
 
-.wd-selected{
-    border-bottom:solid 4px rgb(29,161,242);
+.wd-selected {
+    border-bottom: solid 4px rgb(29, 161, 242);
     padding-bottom: 16px;
-    color: rgb( 29,161,242);
+    color: rgb(29, 161, 242);
 }
 
 /*.wd-nav-tabs > .wd-selected{*/
@@ -64,115 +66,118 @@ position:relative;
 /*}*/
 
 
-.wd-category1{
+.wd-category1 {
     border-bottom: solid 1px rgb(47, 51, 54);
-    padding-left:25px;
+    padding-left: 25px;
 }
 
-.wd-category1 h4{
+.wd-category1 h4 {
     font-size: 13px;
-    color:rgb(110, 118, 125);
+    color: rgb(110, 118, 125);
     margin-bottom: 5px;
 }
 
-.wd-category1 h3{
-    margin-top:5px;
-    margin-bottom:5px;
+.wd-category1 h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.wd-category1 :nth-child(3){
-    margin-top:5px;
-}
-.wd-image-check{
-    position:relative;
-    top:2px;
-    width:15px;
-    height:15px;
+.wd-category1 :nth-child(3) {
+    margin-top: 5px;
 }
 
-.wd-category2{
+.wd-image-check {
+    position: relative;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+.wd-category2 {
     border-bottom: solid 1px rgb(47, 51, 54);
     padding-left: 25px;
 }
 
-.wd-category2 h4{
-font-size: 13px;
-}
-
-.wd-category2-content{
-    float: left;
-}
-
-.wd-category2 .wd-float-image{
-    position:relative;
-    left:500px;
-    margin:5px;
-}
-
-.wd-category3 .wd-float-image{
-    position:relative;
-    left:655px;
-    margin:5px;
-}
-
-.wd-image{
-    width:100px;
-    height:100px;
-    border-radius: 10px;
-}
-.wd-dot-signature
-{
-    color:rgb(110, 118, 125);
-}
-.wd-category3{
-    border-bottom: solid 1px rgb(47, 51, 54);
-    padding-left: 25px;
-}
-
-.wd-category3 h4{
-    color:rgb(110, 118, 125);
+.wd-category2 h4 {
     font-size: 13px;
 }
-.wd-category3-content{
+
+.wd-category2-content {
     float: left;
 }
 
-.wd-category4-content{
-    float:left;
+.wd-category2 .wd-float-image {
+    position: relative;
+    left: 500px;
+    margin: 5px;
 }
 
-.wd-category4{
+.wd-category3 .wd-float-image {
+    position: relative;
+    left: 655px;
+    margin: 5px;
+}
+
+.wd-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.wd-dot-signature {
+    color: rgb(110, 118, 125);
+}
+
+.wd-category3 {
     border-bottom: solid 1px rgb(47, 51, 54);
     padding-left: 25px;
 }
 
-.wd-category4 h4{
-font-size: 13px;
+.wd-category3 h4 {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
 }
 
-.wd-category4 .wd-float-image{
-    position:relative;
-    left:650px;
-    margin:5px;
+.wd-category3-content {
+    float: left;
 }
 
-.wd-category5{
+.wd-category4-content {
+    float: left;
+}
+
+.wd-category4 {
+    border-bottom: solid 1px rgb(47, 51, 54);
+    padding-left: 25px;
+}
+
+.wd-category4 h4 {
+    font-size: 13px;
+}
+
+.wd-category4 .wd-float-image {
+    position: relative;
+    left: 650px;
+    margin: 5px;
+}
+
+.wd-category5 {
     /*border-bottom: solid 1px rgb(47, 51, 54);*/
     padding-left: 25px;
 }
 
-.wd-category5 h4{
+.wd-category5 h4 {
     font-size: 13px;
-    color:rgb(110, 118, 125);
+    color: rgb(110, 118, 125);
     margin-bottom: 5px;
 }
 
-.wd-category5 h3{
-    margin-top:5px;
-    margin-bottom:5px;
+.wd-category5 h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.wd-category5 :nth-child(3){
-    margin-top:5px;
+.wd-category5 :nth-child(3) {
+    margin-top: 5px;
 }
 
