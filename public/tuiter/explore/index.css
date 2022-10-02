@@ -104,11 +104,12 @@ body {
 
 .wd-category2-content {
     float: left;
+    width: 50%;
 }
 
 .wd-category2 .wd-float-image {
     position: relative;
-    left: 500px;
+    left: 655px;
     margin: 5px;
 }
 
@@ -140,10 +141,12 @@ body {
 
 .wd-category3-content {
     float: left;
+    width: 50%;
 }
 
 .wd-category4-content {
     float: left;
+    width: 50%;
 }
 
 .wd-category4 {
