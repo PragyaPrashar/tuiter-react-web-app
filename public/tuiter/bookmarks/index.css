@@ -65,7 +65,7 @@ body {
 
 
 .wd-bookmark-card {
-    border: solid 1px rgb(47, 51, 54);
+    border: solid 1px lightgray;
     border-radius: 20px;
     width: 504px;
 }

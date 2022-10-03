@@ -4,10 +4,15 @@ body {
     color: white;
 }
 
+body input::placeholder{
+    color: white;
+}
+
 .wd-container {
     border: solid 1px rgb(47, 51, 54);
     margin-left: 16px;
 }
+
 
 .wd-nav-search {
     border-bottom: solid 1px rgb(47, 51, 54);
@@ -35,8 +40,8 @@ body {
 .wd-search-icon {
     position: relative;
     top: 7px;
-    left: 12px;
-    margin-left: 12px;
+    left: 1055px;
+    margin-right: 12px;
     font-size: 30px;
     text-decoration: none;
     color: rgb(29, 161, 242);
@@ -64,6 +69,12 @@ body {
 /*    border-bottom: solid 4px  rgb(29,161,242);*/
 /*    color:rgb(29,161,242);*/
 /*}*/
+
+.wd-small-rectangle{
+    border: solid 1px rgb(47, 51, 54);
+    background-color: rgb(47,51,54);
+    height: 5px;
+}
 
 
 .wd-category1 {
@@ -109,13 +120,14 @@ body {
 
 .wd-category2 .wd-float-image {
     position: relative;
-    left: 275px;
+    left: 700px;
     margin: 5px;
+
 }
 
 .wd-category3 .wd-float-image {
     position: relative;
-    left: 275px;
+    left: 700px;
     margin: 5px;
 }
 
@@ -123,6 +135,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 10px;
+    margin-right: 16px;
 }
 
 .wd-dot-signature {
@@ -135,7 +148,7 @@ body {
 }
 
 .wd-category3 h4 {
-    color: rgb(110, 118, 125);
+    color: lightgray;
     font-size: 13px;
 }
 
@@ -160,7 +173,7 @@ body {
 
 .wd-category4 .wd-float-image {
     position: relative;
-    left: 275px;
+    left: 700px;
     margin: 5px;
 }
 
