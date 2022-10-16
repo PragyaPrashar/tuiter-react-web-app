@@ -1,13 +1,17 @@
 const NavigationSidebar = (page) => {
-let Home="false";
-let Explore="false"
-    if(page==="Home"){
+let home=false;
+let explore=false;
+
+    if(page==="HomeScreen" || page==="homescreen"){
         console.log('Home Screen');
-        Home=true;
+        home=true;
+        explore=false;
+
     }
-    else if(page==="Explore"){
+    else if(page==="explore"){
         console.log('Explore Screen');
-        Explore=true;
+        explore=true;
+        home=false;
     }
 
     return (`
@@ -16,12 +20,12 @@ let Explore="false"
   <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action"><i
                         class="fa-brands fa-twitter"></i></a>
-               <a class="list-group-item list-group-item-action ${Home ? 'active' : ''}" href="../HomeScreen/index.html">
+               <a class="list-group-item list-group-item-action ${home ? 'active' : ''}" href="../HomeScreen/index.html">
                    <i class="fa-sharp fa-solid fa-house-chimney"></i> <span class="d-none d-xl-inline-block">Home</span></a>
                    
                    
                    
-                <a class="list-group-item list-group-item-action ${Explore ? 'active' : ''}" href="../explore/index.html">
+                <a class="list-group-item list-group-item-action ${explore ? 'active' : ''}" href="../explore/index.html">
                     <i class="fa-solid fa-hashtag"></i> <span class="d-none d-xl-inline-block">Explore</span></a>
                 <a href="#"
                    class="list-group-item list-group-item-action">
