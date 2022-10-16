@@ -16,12 +16,12 @@ let Explore="false"
   <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action"><i
                         class="fa-brands fa-twitter"></i></a>
-               <a class="list-group-item list-group-item-action ${Home?'active':''}" href="../HomeScreen/index.html">
+               <a class="list-group-item list-group-item-action ${Home ? 'active' : ''}" href="../HomeScreen/index.html">
                    <i class="fa-sharp fa-solid fa-house-chimney"></i> <span class="d-none d-xl-inline-block">Home</span></a>
                    
                    
                    
-                <a class="list-group-item list-group-item-action ${Explore?'active':''}" href="../exploreNew/index.html">
+                <a class="list-group-item list-group-item-action ${Explore ? 'active' : ''}" href="../explore/index.html">
                     <i class="fa-solid fa-hashtag"></i> <span class="d-none d-xl-inline-block">Explore</span></a>
                 <a href="#"
                    class="list-group-item list-group-item-action">

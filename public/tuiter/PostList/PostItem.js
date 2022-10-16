@@ -8,7 +8,7 @@ const PostItem = (post) => {
     }
 return(`
 
-<div class="row mt-2 border-bottom border-secondary">
+<div class="row mt-2 ps-sm-2 pe-sm-3 ps-xxl-0 pe-xxl-0 border-bottom border-secondary">
      <div class="col-xxl-2">
          <img src='${post.avatarIcon}' class=" wd-avatar-icon rounded-circle">
      </div>
@@ -18,7 +18,7 @@ return(`
              <span class="ps-0 text-white">${post.userName} <i class="fa-solid fa-circle-check "></i> </span><span>${post.handle} &#x2022; ${post.time}</span></div>
          </div>
          <div class="row"><span class="ps-0 text-white"> ${post.taglineWithOutLink} <a href="#"> ${post.taglineWithLink}</a> ${post.taglineWithNoLink}</span></div>
-         <div class="row wd-bookmark-card border-secondary">
+         <div class="row wd-bookmark-card border-secondary mt-1">
              <img src='${post.image}' class="mt-0 wd-body-image" >
              <div class="wd-bookmarks-title-text">
                  <h4 class="wd-bookmark-title">${post.caption}</h4>
