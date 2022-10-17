@@ -9,10 +9,11 @@ const PostItem = (post) => {
 return(`
 
 <div class="row mt-2 ps-sm-2 pe-sm-3 ps-xxl-0 pe-xxl-0 border-bottom border-secondary">
-     <div class="col-xxl-2">
+
+     <div class="col-xxl-1 col-sm-2 me-xxl-4">
          <img src='${post.avatarIcon}' class=" wd-avatar-icon rounded-circle">
      </div>
-     <div class="col-xxl-9 pe-1 mb-2">
+     <div class="col-10 mb-2">
          <div class="row">
              <div class="ps-0">
              <span class="ps-0 text-white">${post.userName} <i class="fa-solid fa-circle-check "></i> </span><span>${post.handle} &#x2022; ${post.time}</span></div>
@@ -45,6 +46,13 @@ return(`
 
 
      </div>
+ 
+ 
+ 
+
+ 
+ 
+ 
  </div>
 `);
 }
