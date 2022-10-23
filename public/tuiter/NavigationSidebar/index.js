@@ -20,7 +20,7 @@ let explore=false;
   <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action"><i
                         class="fa-brands fa-twitter"></i></a>
-               <a class="list-group-item list-group-item-action ${home ? 'active' : ''}" href="../HomeScreen/index.html">
+               <a class="list-group-item list-group-item-action ${home ? 'active' : ''}" href="../HomeScreen/index2.html">
                    <i class="fa-sharp fa-solid fa-house-chimney"></i> <span class="d-none d-xl-inline-block">Home</span></a>
                    
                    
