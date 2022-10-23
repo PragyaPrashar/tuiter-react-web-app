@@ -14,36 +14,36 @@ const PostSummaryItem = (
     }
 
 )=>{
-    let topic;
-    let username;
-    let title;
-    let tweets;
-
-    if(post.topic!==undefined){
-        topic= `<p className='text-secondary'>{post.topic}</p>`;
-    }
-    else{
-        topic="";
-    }
-
-    if(post.username!==undefined){
-        username= `<p className='text-secondary'>{post.username}</p>`;
-    }
-    else{
-        username="";
-    }
-    if(post.title!==undefined){
-        title= `<p className='text-secondary'>{post.title}</p>`;
-    }
-    else{
-        title="";
-    }
-    if(post.tweets!==undefined){
-        tweets= `<p className='text-secondary'>{post.username}</p>`;
-    }
-    else{
-        tweets="";
-    }
+    // let topic;
+    // let username;
+    // let title;
+    // let tweets;
+    //
+    // if(post.topic!==undefined){
+    //     topic= `<p className='text-secondary'>{post.topic}</p>`;
+    // }
+    // else{
+    //     topic="";
+    // }
+    //
+    // if(post.username!==undefined){
+    //     username= `<p className='text-secondary'>{post.username}</p>`;
+    // }
+    // else{
+    //     username="";
+    // }
+    // if(post.title!==undefined){
+    //     title= `<p className='text-secondary'>{post.title}</p>`;
+    // }
+    // else{
+    //     title="";
+    // }
+    // if(post.tweets!==undefined){
+    //     tweets= `<p className='text-secondary'>{post.username}</p>`;
+    // }
+    // else{
+    //     tweets="";
+    // }
 
 
     return(
@@ -60,7 +60,7 @@ const PostSummaryItem = (
                                   <div className="text-secondary"> {post.tweets} </div>
                             </div>
                             <div className="col-2">
-                                <img className=" w-100 rounded-1 float-end" src={`${post.image}`}/>
+                                <img alt="" className=" w-100 rounded-1 float-end" src={`${post.image}`}/>
                             </div>
 
                         </div>

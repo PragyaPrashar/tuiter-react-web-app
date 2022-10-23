@@ -10,7 +10,7 @@ const ExploreComponent = () => {
                     <i className="fa-solid fa-magnifying-glass wd-search"></i>
                 </div>
                 <div className="col-2 mt-1">
-                    <img className="w-50 float-end" src="../images/settings.png"/>
+                    <img alt="" className="w-50 float-end" src="../images/settings.png"/>
                 </div>
             </div>
              <div className="mt-2">
@@ -32,7 +32,7 @@ const ExploreComponent = () => {
                     </li>
                 </ul>
                 <div className="position-relative mt-2">
-                    <img src="../images/starship1.jpg" width="100%"/>
+                    <img alt="" src="../images/starship1.jpg" width="100%"/>
                     <h1 className="position-absolute bottom-0 wd-overlay-text text-white">SpaceX's
                         Starship</h1>
                 </div>

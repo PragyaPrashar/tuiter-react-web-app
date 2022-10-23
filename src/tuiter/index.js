@@ -1,6 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import Nav from "../nav";
 import Explore from "./explore/index.js";
 import HomeScreen from "./HomeScreen/index";
 import {Routes, Route} from "react-router";

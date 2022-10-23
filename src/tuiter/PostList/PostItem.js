@@ -37,7 +37,7 @@ const PostItem = (
         <div className="row mt-2 ps-sm-2 pe-sm-3 ps-xxl-0 pe-xxl-0 border-bottom border-secondary">
 
             <div className="col-xxl-1 col-sm-2 me-xxl-4">
-                <img src={`${post.avatarIcon}`} className=" wd-avatar-icon rounded-circle"/>
+                <img alt="" src={`${post.avatarIcon}`} className=" wd-avatar-icon rounded-circle"/>
             </div>
             <div className="col-10 mb-2">
                 <div className="row">
@@ -49,7 +49,7 @@ const PostItem = (
                 <div className="row"><span className="ps-0 text-dark"> {post.taglineWithOutLink} <a
                     href="#"> {post.taglineWithLink}</a> {post.taglineWithNoLink}</span></div>
                 <div className="row wd-bookmark-card border-secondary mt-1 ">
-                    <img src={`${post.image}`} className="mt-0 wd-body-image ps-0 pe-0"/>
+                    <img alt="" src={`${post.image}`} className="mt-0 wd-body-image ps-0 pe-0"/>
                     <div className="wd-bookmarks-title-text">
                         <h4 className="wd-bookmark-title">{post.caption}</h4>
                         <p className="wd-bookmarks-text text-reset">{post.text}</p>
