@@ -1,0 +1,17 @@
+.wd-search{
+    position: absolute;
+    top:11px;
+    left:25px;
+}
+.wd-settings{
+    position: absolute;
+    right: 20px;
+}
+.wd-image{
+    width: 78%;
+    border-radius:100px;
+}
+
+.wd-overlay-text{
+    left:10px;
+}
