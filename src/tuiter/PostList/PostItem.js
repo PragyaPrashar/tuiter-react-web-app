@@ -47,13 +47,13 @@ const PostItem = (
                     </div>
                 </div>
                 <div className="row"><span className="ps-0 text-dark"> {post.taglineWithOutLink} <a
-                    href="#"> {post.taglineWithLink}</a> {post.taglineWithNoLink}</span></div>
+                    href="/test"> {post.taglineWithLink}</a> {post.taglineWithNoLink}</span></div>
                 <div className="row wd-bookmark-card border-secondary mt-1 ">
                     <img alt="" src={`${post.image}`} className="mt-0 wd-body-image ps-0 pe-0"/>
                     <div className="wd-bookmarks-title-text">
                         <h4 className="wd-bookmark-title">{post.caption}</h4>
                         <p className="wd-bookmarks-text text-reset">{post.text}</p>
-                        <a href="#" className="text-reset"> <i
+                        <a href="/test" className="text-reset"> <i
                             className="fa-solid fa-link"></i> {post.redirect}</a>
                     </div>
 
