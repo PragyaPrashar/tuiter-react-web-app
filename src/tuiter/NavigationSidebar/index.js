@@ -15,10 +15,10 @@ const NavigationSidebar = () => {
                 <a href="/test" className="list-group-item list-group-item-action"><i
                         className="fa-brands fa-twitter"></i> <span className="d-none d-xl-inline-block"> Tuiter</span></a>
 
-               <Link to="/tuiter/home" className={ `list-group-item list-group-item-action ${active === 'home'?'active':''}`} >
+               <Link to="/tuiter/home" className={ `list-group-item list-group-item-action ${active === 'home'?'active':''}`}>
                    <i className="fa-sharp fa-solid fa-house-chimney"></i> <span className="d-none d-xl-inline-block">Home</span></Link>
 
-                <Link to="/tuiter/explore" className={ `list-group-item list-group-item-action ${active === 'explore'?'active':''}`} >
+                <Link to="/tuiter/explore" className={ `list-group-item list-group-item-action ${active === 'explore'?'active':''}`}>
                     <i className="fa-solid fa-hashtag"></i> <span className="d-none d-xl-inline-block">Explore</span></Link>
 
                 <a href="/test"

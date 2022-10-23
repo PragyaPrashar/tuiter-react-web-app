@@ -60,7 +60,7 @@ const PostSummaryItem = (
                                   <div className="text-secondary"> {post.tweets} </div>
                             </div>
                             <div className="col-2">
-                                <img alt="" className=" w-100 rounded-1 float-end" src={`${post.image}`}/>
+                                <img alt="" className=" w-100 rounded-1 float-end" src={`/images/${post.image}`}/>
                             </div>
 
                         </div>
