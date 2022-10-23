@@ -25,7 +25,7 @@ let explore=false;
                    
                    
                    
-                <a class="list-group-item list-group-item-action ${explore ? 'active' : ''}" href="../explore/index123.html">
+                <a class="list-group-item list-group-item-action ${explore ? 'active' : ''}" href="../explore/index.html">
                     <i class="fa-solid fa-hashtag"></i> <span class="d-none d-xl-inline-block">Explore</span></a>
                 <a href="#"
                    class="list-group-item list-group-item-action">
