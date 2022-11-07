@@ -37,9 +37,12 @@ const NavigationSidebar = () => {
                    className="list-group-item list-group-item-action">
                     <i className="fa-solid fa-list"></i> <span className="d-none d-xl-inline-block">Lists</span></a>
 
-                <a href="/test"
-                   className="list-group-item list-group-item-action">
-                    <i className="fa-solid fa-user"></i> <span className="d-none d-xl-inline-block">Profile</span></a>
+                <Link to="/tuiter/profile" className={`list-group-item list-group-item-action ${active==='profile'? 'active':''}`}>
+                    <i className="fa-solid fa-user"></i> <span className="d-none d-xl-inline-block">Profile</span></Link>
+
+                {/*<a href="/test"*/}
+                {/*   className="list-group-item list-group-item-action">*/}
+                {/*    <i className="fa-solid fa-user"></i> <span className="d-none d-xl-inline-block">Profile</span></a>*/}
 
                 <a href="/test"
                    className="list-group-item list-group-item-action">
