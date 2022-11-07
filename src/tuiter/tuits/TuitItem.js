@@ -34,7 +34,7 @@ const dispatch=useDispatch()
 
     return (
 
-        <div className="row mt-2 ps-sm-2 pe-sm-3 ps-xxl-0 pe-xxl-0 border-bottom border-secondary">
+        <div className="row mt-2 ps-sm-2 pe-sm-3 ps-xxl-0 pe-xxl-0 border-bottom border-gray">
 
             <div className="col-xxl-1 col-sm-2 me-xxl-4">
                 <img alt="" src={`${tuitItem.avatarIcon}`} className=" wd-avatar-icon rounded-circle"/>
