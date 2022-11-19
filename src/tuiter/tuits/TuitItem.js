@@ -3,6 +3,7 @@ import "./index.css"
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
 import TuitStats from "./TuitStats";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -27,10 +28,12 @@ const TuitItem = (
 
 
 ) => {
-const dispatch=useDispatch()
-    const deleteTuitHandler=(_id)=>{
-    dispatch(deleteTuit(_id))
-    }
+const dispatch=useDispatch();
+const deleteTuitHandler=(_id)=>{
+    console.log("Inside delete handler with id ",_id);
+    dispatch(deleteTuitThunk(_id));
+
+}
 
     return (
 
@@ -55,7 +58,7 @@ const dispatch=useDispatch()
                     <span className="ps-0 text-dark"> {tuitItem.tagline}</span>
                 </div>
 
-<TuitStats/>
+            <TuitStats tuitItem={tuitItem}/>
 
 
             </div>

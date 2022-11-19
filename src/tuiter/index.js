@@ -11,7 +11,7 @@ import ProfileComponent from "./profile/ProfileComponent";
 
 const store=configureStore({
     reducer: {
-        who: whoReducer, tuits: tuitsReducer
+        who: whoReducer, tuitsData: tuitsReducer
     } });
 
 function Tuiter() {
