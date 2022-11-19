@@ -10,7 +10,7 @@ const TuitsList = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(findTuitsThunk())
-    }, [])
+    })
 
     // const tuitsArray=useSelector((state)=>state.tuits)
     return (

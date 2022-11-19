@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import "./index.css"
 import {useDispatch} from "react-redux";
-import {addTuit} from "../tuits/tuits-reducer";
 import {createTuitThunk}
     from "../../services/tuits-thunks";
 
