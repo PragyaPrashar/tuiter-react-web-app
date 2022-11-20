@@ -57,7 +57,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-1">
-                <img alt="" className={"rounded-circle"} src="/images/body1_thumbnail.jpg"
+                <img alt="" className={"rounded-circle"} src="/images/space_icon.jpg"
                      width={50} height={50}/>
             </div>
             <div className="col-11">
