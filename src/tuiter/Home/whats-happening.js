@@ -18,7 +18,7 @@ const WhatsHappening = () => {
         //disPatch(addTuit(whatsHappening));
         const obj={
 
-                        _id: 123,
+                        _id: (new Date()).getTime(),
                         avatarIcon:"../images/space_icon.jpg",
                         topic: "Web Development",
                         userName: "ReactJS",
