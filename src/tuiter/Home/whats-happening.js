@@ -1,9 +1,7 @@
 import React, {useState} from "react";
 import "./index.css"
 import {useDispatch} from "react-redux";
-import {createTuitThunk}
-    from "../../services/tuits-thunks";
-
+import {createTuitThunk} from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
 
@@ -16,35 +14,31 @@ const WhatsHappening = () => {
     const disPatch = useDispatch();
     const tuitClickHandler = () => {
         //disPatch(addTuit(whatsHappening));
-        const obj={
+        const obj = {
 
-                        _id: (new Date()).getTime(),
-                        avatarIcon:"../images/space_icon.jpg",
-                        topic: "Web Development",
-                        userName: "ReactJS",
-                        username: "SpaceX",
-                        time: "2h",
-                        title: "React.js is a component based front end library that makes it very easy to build Single Page Application or SPAs",
-                        image: "../images/react.png",
-                        tagline:"",
-                        tweets:"",
-                        tuit: "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
-                        liked: true,
-                        replies: 123,
-                        retuits: 432,
-                        likes: 2345,
-                        handle: "@spaceX",
+            _id: (new Date()).getTime(),
+            avatarIcon: "../images/space_icon.jpg",
+            topic: "Web Development",
+            userName: "ReactJS",
+            username: "SpaceX",
+            time: "2h",
+            title: "React.js is a component based front end library that makes it very easy to build Single Page Application or SPAs",
+            image: "../images/react.png",
+            tagline: "",
+            tweets: "",
+            tuit: "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
+            liked: true,
+            replies: 123,
+            retuits: 432,
+            likes: 0,
+            unlike: 0,
+            handle: "@spaceX",
 
-                        comment:"4.2K",
-                        retweet:"3.5K",
-                        heart:"37.5K"
+            comment: "4.2K",
+            retweet: "3.5K",
+            heart: "37.5K"
 
-
-                    }
-
-
-
-
+        }
 
         const newTuit = {
             ...obj,

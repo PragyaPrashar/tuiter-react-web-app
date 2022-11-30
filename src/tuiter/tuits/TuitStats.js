@@ -21,7 +21,8 @@ const TuitStats=(
             comment: "4.2K",
             retweet: "3.5K",
             heart: "37.5K",
-            likes:0
+            likes:0,
+            unlike:0
         }
     }
 
@@ -49,7 +50,7 @@ const TuitStats=(
         setToggle(toggleHeart);
         dispatch(updateTuitThunk({
                                      ...tuitItem,
-                                     likes: tuitItem.likes - 1
+                                     unlike: tuitItem.unlike + 1
                                  }));
 
 
@@ -57,25 +58,42 @@ const TuitStats=(
 
 
 
-   return(                <div className="row mt-2">
-       <div className="col-3">
-           <i className="fa-regular fa-comment"></i> <span
-           className="ms-3">123</span>
-       </div>
-       <div className="col-3">
-           <i className="fa-solid fa-retweet"></i> <span
-           className="ms-3">432</span>
-       </div>
-       <div className="col-3">
 
-           {toggleHeart && <i className="bi bi-heart-fill text-danger" onClick={unlikeHandler}></i> }
-           {!toggleHeart &&<i className="bi bi-heart" onClick={likeHandler}></i> }
+
+
+
+
+
+
+
+    return(                <div className="row mt-2">
+        <div className="col-2">
+            <i className="fa-regular fa-comment"></i> <span
+            className="ms-3">123</span>
+        </div>
+        <div className="col-2">
+            <i className="fa-solid fa-retweet"></i> <span
+            className="ms-3">432</span>
+        </div>
+        <div className="col-2">
+
+
+            <i className="bi bi-heart-fill text-danger" onClick={likeHandler}></i>
 
             <span className="ms-3">{tuitItem.likes}</span>
-       </div>
-       <div className="col-3">
-           <i className="fa-solid fa-upload"></i>
-       </div>
-   </div>);
+        </div>
+
+        <div className="col-2">
+
+            <i className="bi bi-heart" onClick={unlikeHandler}></i>
+
+
+            <span className="ms-3">{tuitItem.unlike}</span>
+        </div>
+
+        <div className="col-2">
+            <i className="fa-solid fa-upload"></i>
+        </div>
+    </div>);
 }
 export default TuitStats;

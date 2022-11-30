@@ -28,6 +28,6 @@ export const updateTuitThunk =
     createAsyncThunk(
         'tuits/updateTuit',
         async (tuit) =>
-            await service.updateTuit(tuit)
+            await service.updateTuit(tuit) 
     )
 
